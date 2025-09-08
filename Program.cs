@@ -10,7 +10,6 @@ namespace GetMime
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine(Environment.GetEnvironmentVariable("PATH"));
             if (args.Length != 1)
             {
                 Console.WriteLine($"Usage: GetMime.exe <path-to-file>");
